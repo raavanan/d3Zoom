@@ -40,7 +40,7 @@ $(document).ready(function(){
    var rows = 26, cols = 50;
    for (var i = 1; i <= rows; i++) {
      var color = getRandomColor();
-     console.info(alphi[2]);
+     //console.info(alphi[2]);
      rowGrp.append("svg:text").attr("x",10).attr("y", 20*i).text(alphi[i]);
      var row = mainGrp.append("svg:g");
      rGap = (i%10 === 0) ?  50 : 0;
